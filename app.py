@@ -1,5 +1,5 @@
 evaluation = f"This model scored {score+6}/12. "
-    if score >= 2:
+if score >= 2:
         evaluation += "The strong technical score suggests the stock is in oversold territory or showing strong momentum characteristics that typically precede upward moves. Technical buying signals are flashing, indicating favorable risk-reward for entries. These setups often attract momentum traders and can create self-fulfilling rallies."
     elif score >= 0:
         evaluation += "The neutral technical score indicates the stock is in balanced territory without extreme readings in either direction. Technical indicators are not providing strong directional signals, suggesting a wait-and-see approach may be prudent until clearer patterns emerge."
